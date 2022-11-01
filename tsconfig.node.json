@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+    "paths": {
+      "~/*": ["/*"]
+    }
+  },
+  "include": ["vite.config.ts"]
+}
