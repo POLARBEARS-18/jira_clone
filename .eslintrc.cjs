@@ -144,6 +144,8 @@ module.exports = {
     // 'jsx-a11y/click-events-have-key-events': 'off',
 
     'react/require-default-props': 'off',
+
+    '@typescript-eslint/no-misused-promises': ['error', { checksVoidReturn: { attributes: false } }],
   },
   settings: {
     'import/resolver': {
